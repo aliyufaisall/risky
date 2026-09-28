@@ -1,0 +1,29 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+risky_env/
+ENV/
+
+# Streamlit specific
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and Logs
+*.csv
+*.xlsx
+*.log
+.DS_Store
